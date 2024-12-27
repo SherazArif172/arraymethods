@@ -8,4 +8,8 @@ for (const element of arr2) {
 
 console.log(arr);
 
+const obj = { name: "ffsd" };
+console.log(Object.keys(obj));
+console.log(Object.values(obj));
+
 // does not modifies the origional array

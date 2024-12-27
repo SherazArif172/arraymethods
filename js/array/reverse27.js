@@ -1,4 +1,4 @@
-const arr = [1, 2, 2, 3, 4, 4, 5, 6, 6];
+const arr = [1, 2, "dfsf", { name: "dsfsd" }, 2, 3, 4, 4, 5, 6, 6];
 
 console.log(arr.reverse());
 console.log(arr);
