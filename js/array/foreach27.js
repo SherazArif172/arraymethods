@@ -6,3 +6,6 @@ const arr2 = arr.forEach((x, y) => {
 console.log(arr2);
 
 console.log(arr);
+
+// will run once for each element till end
+// will noe modify the origional array
