@@ -5,8 +5,8 @@ const arr = [1, 2, 2, 3, 4, 4, 5, 6, 6];
 
 Array.prototype.myForEach = function (callbackfn) {
   for (let index = 0; index < this.length; index++) {
-    const value = arr[index];
-    callbackfn(value, index, arr);
+    const value = this[index];
+    callbackfn(value, index, this);
   }
 };
 

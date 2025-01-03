@@ -6,8 +6,8 @@ const arr = [1, 2, 2, 3, 4, 4, 5, 6, 6];
 // console.log(arr);
 
 Array.prototype.myAt = function (index) {
-  const idx = index < 0 ? this.index + index : index;
+  const idx = index < 0 ? this.length + index : index;
   return this[idx];
 };
 
-console.log(arr.myAt(44));
+console.log(arr.myAt(-1));
